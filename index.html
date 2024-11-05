@@ -4,72 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esqueleto Proyecto 1</title>
+    <title>Esqueleto Proyecto 2</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    
+
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
         </ul>
     </nav>
-    <br>
-    <br>
-    <div class="contenedor-imagenes">
-        <img src="images/zoolขgico.jpg" alt="lago flamingos">
-        <img src="images/andoke.jpg" alt="cupula sombrillas colores">
-    </div>
 
-    <div class="contenedor-imagenes">
-        <img src="images/hummingbird-5111260_1280.jpg" alt="colibri dorado">
-        <img src="images/fondo_5mariposa.jpg" alt="mariposa atardecer fucsia">
+    <div class="carrusel">
+        <div class="carrusel-inner">
+            <div class="carrusel-item active">
+                <img src="images/fondo_5mariposa.jpg" alt="mariposa fondo gamas de azul cielo">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/7charcos2.jpg" alt="hermosa cascada cayendo a lago 2">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/andoke.jpg" alt="Mariposario y sombrillas de colores">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/mariposa_2.jpg" alt="mariposa azul terciopelo">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/hummingbird-5111260_1280.jpg" alt="hermoso colibri dorado">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/zoolขgico.jpg" alt="lago con flamingos">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/jardin botanico.jpg" alt="una cabaña rodeada de montañas">
+            </div>
+            <div class="carrusel-item">
+                <img src="images/compás+o+tucan+barbet-1920w.webp" alt="tucan pequeñito">
+            </div>
+        </div>
+        <button class="carrusel-control prev" onclick="prevSlide()">❮</button>
+        <button class="carrusel-control next" onclick="nextSlide()">❯</button>
     </div>
 
     <br>
     <h1>Cali: Paraíso Natural para los Amantes de La Biodiversidad</h1>
     <br>
-    <br>
-    <div class="contenedor">
 
+    <div class="contenedor">
         <div class="fila">
             <img src="images/mariposa.jpg" alt="mariposa colores fuertes">
-            <p class="primer_parrafo">"Descubre con nosotros la magia de Cali", una ciudad vibrante rodeada de
-                naturaleza
+            <p class="primer_parrafo">"Descubre con nosotros la magia de Cali", una ciudad vibrante rodeada de naturaleza
                 exótica. Es un santuario para los amantes de la fauna y flora, te invitamos a observar una asombrosa
-                variedad
-                de aves, mariposas y demás destinos ecológicos, explorando hermosos senderos tropicales, con
-                experiencias
-                dirigidas en grupo o individuales.</p>
+                variedad de aves, mariposas y demás destinos ecológicos, explorando hermosos senderos tropicales, con
+                experiencias dirigidas en grupo o individuales.</p>
         </div>
 
         <div class="fila">
             <p class="primer_parrafo">Encuentra con nosotros las actividades que más se acoplen a tus necesidades,
                 te podemos indicar los más atractivos y diversos recorridos, para que te maravilles de nuestra ciudad y
-                su
-                riqueza natural. Sumérgete en una experiencia inolvidable y conecta con la naturaleza en su
-                forma más pura. ¡Cali te espera! </p>
-            <img src="images/fondobody.jpg" alt="paisaje verde">
+                su riqueza natural. Sumérgete en una experiencia inolvidable y conecta con la naturaleza en su
+                forma más pura. ¡Cali te espera!</p>
+            <img src="images/photo-1518001335271-e104dd5f03f8-1920w.webp" alt="pareja de loritos">
         </div>
     </div>
-    <br>
-
-
-    </div>
-    <p class="parrafo_dos"> Programa tu visita y descubre los rincones ecológicos más impresionantes...</p>
 
     <br>
-
-    <p class="parrafo_tres"> "Reserva ahora y embárcate en una aventura única!"</p>
-
-    </p>
+    <p class="parrafo_dos">Programa tu visita y descubre los rincones ecológicos más impresionantes...</p>
     <br>
-    <br>
+    <p class="parrafo_tres">"Reserva ahora y embárcate en una aventura única!"</p>
     <br>
 
     <div>
-        <nav>
+        <nav class="piedepagina">
             <ul>
                 <li><a href="#">Pasadía</a></li>
                 <li><a href="#">Recorridos</a></li>
@@ -77,6 +86,8 @@
             </ul>
         </nav>
     </div>
+
+    <script src="js/carrusel.js"></script> 
 </body>
 
 </html>
